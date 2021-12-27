@@ -1,0 +1,484 @@
+/* font used on page */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&display=swap');
+
+/* font used on main-image */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+nav div {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+nav div a {
+  color: #4c4c4c;
+  font-size: 13px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 600;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  letter-spacing: 1.2px;
+  padding-bottom: 8px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  border-bottom: 5px solid white;
+}
+
+nav div a:hover {
+  border-bottom: 5px solid #e9007f;
+  color: #4c4c4c;
+  transition: border-bottom .5s ease-in-out;
+}
+
+/* All sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Main Image Section */
+section.main-image{
+  background-image: url("./images/drink-to-discover-wild-about-water-removebg-preview.png");
+  background-size: cover;
+  height: 680px;
+  margin-top: -4px;
+}
+
+section.main-image h1, section.main-image h2, section.main-image h3 {
+  color: #4c4c4c;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+}
+
+section.main-image h1 {
+  color:#024587;
+  font-size: 4.5rem;
+  position: absolute;
+  right: 65px;
+  top: 350px;
+  width: 400px;
+}
+
+section.main-image h2{
+  color:#CCCBC8;
+  font-size: 2.5rem;
+  line-height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 770px;
+  text-align: center;
+  width: 150px;
+}
+
+section.main-image h2 span{
+  font-size: 1rem;
+}
+
+section.main-image h3 {
+  color:rgba(240, 248, 255, 0.726);
+  font-size: 2rem;
+  position: absolute;
+  top: 810px;
+}
+
+section.main-image h3 span{
+  color: #CCC302;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0;
+  font-weight: 900;
+}
+/*                                      ===================================
+                                        ===================================
+                                          CSS Code Written By Ahsan Raza
+                                        =================================== 
+                                        ===================================
+*/
+
+
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+/* ==================
+        Section 3 
+   =================*/
+body > section.section3 > div{
+    display: flex;
+    margin: 0; 
+    padding: 0;
+    height: 90vh;
+}
+.left{
+    background-color: #4CC8BA;
+    height:90vh;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 105px 40px 30px 60px;
+}
+body > section.section3 > div > div.left > p
+{
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #555;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 30px 0;
+    display: block;
+}
+body > section.section3 > div > div.left > h2
+{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: .4px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-transform: none;
+    color: white;
+}
+body > section.section3 > div > div.left > a
+{
+    background-color: #00B09D;
+    display: inline-block;
+    padding: 17px 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+body > section.section3 > div > div.left > a:hover{
+    background: #E10981;
+    color: white !important;
+    
+}
+body > section.section3 > div > div.right{
+    width: 60%;
+    height: 90vh;
+}
+body > section.section3 > div > div.right > img
+{
+    height: 90vh;
+    width: 100%;
+}
+
+/* ==================
+        Section 4 
+   =================*/
+body > section.section4 > div{
+    display: flex;
+    flex-direction: row-reverse;   
+    margin: 0; 
+    padding: 0;
+    height: 90vh;
+}
+body > section.section4 > div > div
+{
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 105px 40px 30px 60px;
+}
+
+body > section.section4 > div > div.right{
+    width: 100%;
+    height: 90vh;
+}
+body > section.section4 > div > img
+{
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+}
+body > section.section4 > div > div.text{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 105px 10px 30px 30px;
+    width: 50%;
+}
+body > section.section4 > div > div > p{
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #555;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 30px 0;
+    display: block;
+}
+body > section.section4 > div > div > h2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: .4px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-transform: none;
+    width: 75%;
+    color: #023f97 !important;
+}
+body > section.section4 > div > div > a{
+    background-color: #e5edf6;
+    display: inline-block;
+    padding: 17px 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #023f97 !important;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 22%;
+    text-decoration: none;
+}
+body > section.section4 > div > div > a:hover{    
+    background: #E10981;
+    color: white !important;
+}
+
+/*                                      ===================================
+                                        ===================================
+                                        CSS Code Written By Mohsin Shabbir
+                                        =================================== 
+                                        ===================================
+*/
+/* ==================
+        Section 5 
+   =================*/
+body > section.section5 > div{
+  display: flex;
+  margin: 0; 
+  padding: 0;
+  height: 90vh;
+}
+body > section.section5 > div > div.left
+{
+  background-color: #5ECFE2;
+  height:90vh;
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 105px 40px 30px 60px;
+}
+body > section.section5 > div > div.left > p
+{
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #555;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 30px 0;
+  display: block;
+}
+body > section.section5 > div > div.left > h2
+{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: .4px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-transform: none;
+  color: white;
+}
+body > section.section5 > div > div.left > a
+{
+  background-color: #17AAC2;
+  display: inline-block;
+  padding: 17px 50px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-align: center;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+body > section.section5 > div > div.left > a:hover{
+  background: #E10981;
+  color: white !important;
+  
+}
+body > section.section5 > div > div.right{
+  width: 60%;
+  height: 90vh;
+}
+body > section.section5 > div > div.right > img
+{
+  height: 90vh;
+  width: 100%;
+}
+/* ==================
+        Section 6
+   =================*/
+   
+body > section.section6 > div{
+  display: flex;
+  margin: 0; 
+  padding: 0;
+  height: 90vh;
+}
+body > section.section6 > div > div.Lastleft
+{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 105px 10px 30px 30px;
+  width: 50%;
+  z-index: 1000;
+  margin: 0 0 0 60px;
+}
+body > section.section6 > div > div.Lastleft > p
+{
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #555;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 30px 0;
+  display: block;
+}
+body > section.section6 > div > div.Lastleft > h2
+{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: .4px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-transform: none;
+  width: 75%;
+  color: #023f97 !important;
+}
+body > section.section6 > div > div.Lastleft > a
+{
+  background-color: #e5edf6;
+    display: inline-block;
+    padding: 17px 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #023f97 !important;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 22%;
+    text-decoration: none;
+}
+body > section.section6 > div > div.Lastleft > a:hover{
+  background: #E10981;
+  color: white !important;
+    
+}
+body > section.section6 > div > div.right
+{
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+}
+body > section.section6 > div > div.right > img
+{
+  height: 90vh;
+  width: 100%;
+}
+  
+/* Footer */
+body > section.Footer > div{
+  display: flex;
+  margin: 0;
+  margin-top: -20px;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  height: 45vh;
+  overflow: hidden;
+  margin-bottom: -23px;
+}
+.footer{
+  background-image: url(images/footer.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  padding: 0px 226px;
+}
+  
+
+.footer_table {
+  margin-left: 50px;
+  color: white;
+  padding: 8%;
+  font-family: 'Gotham Rounded A','Gotham Rounded B',sans-serif;
+  font-weight: 400;
+  display: block;
+  box-sizing: border-box;
+  
+}
+.icons{
+  margin-left: 550px;
+  color: white;
+  box-sizing: border-box;
+  margin-top: -14%;
+  font-family: 'Gotham Rounded A','Gotham Rounded B',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+
+}
+.paragraph{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 10;
+  color: white;
+  margin: 3%;
+}
